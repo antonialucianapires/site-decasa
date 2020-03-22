@@ -23,7 +23,7 @@
     font-size: 14px;
 }
 
-img.header_logotipo {
+.header_logotipo, .footer_logotipo {
     width: 200px;
 }
 
@@ -57,4 +57,30 @@ img.header_logotipo {
     background-color: #562301;
     display: block;
 
+}
+
+.contato_pedido h3 {
+    color: #562301;
+}
+
+a.btn-home {
+    background-color: #562301;
+    color: #fff;
+}
+
+a.btn-home:hover {
+    color: #fff;
+}
+
+#rodape {
+    background-color: #562301;
+}
+
+.footer-copyright {
+    background-color: #231a14;
+    color: white;
+}
+
+.footer-copyright a {
+    color: white;
 }
