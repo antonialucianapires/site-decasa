@@ -44,12 +44,12 @@
     font-size: 18px;
 }
 
-.produtos_titulo {
+h2 {
     text-align: center;
     color: #562301;
 }
 
-.produtos_titulo::after {
+h2::after {
     content: '';
     width: 60px;
     height: 3px;
