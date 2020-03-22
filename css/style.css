@@ -1,0 +1,60 @@
+.header {
+    visibility: visible;
+    animation-name: flipInX;
+}
+
+.header h4 {
+    color: #562301;
+    font-size: 16px;
+}
+
+.header h4::after {
+    content: '';
+    width: 30px;
+    height: 3px;
+    margin:5px 0;
+    background-color: #562301;
+    display: block;
+}
+
+.header_infos {
+    color: gray;
+    margin: 0;
+    font-size: 14px;
+}
+
+img.header_logotipo {
+    width: 200px;
+}
+
+.nav {
+    background-color: #ffb380;
+    text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #562301;
+}
+
+.carrossel_titulo {
+    font-size: 40px;
+}
+
+.carrossel_descricao {
+    font-size: 18px;
+}
+
+.produtos_titulo {
+    text-align: center;
+    color: #562301;
+}
+
+.produtos_titulo::after {
+    content: '';
+    width: 60px;
+    height: 3px;
+    margin:5px auto;
+    background-color: #562301;
+    display: block;
+
+}
