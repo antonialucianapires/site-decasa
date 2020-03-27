@@ -36,6 +36,36 @@
     color: #562301;
 }
 
+.imagem_paginaInterna {
+    box-shadow: 0px 6px 10px #464646;
+    border: 6px solid #fefefe;
+}
+
+.redes {
+    width: 60px;
+    position: fixed;
+    top: 300px;
+    right: 0;
+    z-index: 100;
+    }
+
+.botoes_redes {
+    display: block;
+    padding: 10px;
+}
+
+.redes img {
+    width: 100%;
+}
+
+.redes .insta {
+    background: #ffb380;
+}
+
+.redes .whatsapp {
+    background: #32cd32;
+}
+
 .carrossel_titulo {
     font-size: 40px;
 }

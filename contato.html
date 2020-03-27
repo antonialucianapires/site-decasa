@@ -23,7 +23,7 @@
         media="all">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="./img/icone.png">
-    <title>DeCasa - Sobre</title>
+    <title>DeCasa - Contato</title>
 </head>
 
 <body>
@@ -81,39 +81,25 @@
         <a href="https://www.instagram.com/decasa_oficial/?igshid=87ksajthiml" target="_blank" class="botoes_redes insta"><img src="./img/instagram.png" alt="instagram"></a>
     </section>
     <!-- Main -->
-    <main class="container  mt-5">
-        <div class="row p-4 m-auto">
-            <div class="col-sm mb-4 text-justify">
-                <h2>Nossa história</h2>
-                <p>Tudo comecou quando, além de cunhadas, nos tornamos grandes amigas.Para melhorar ainda mais nossa
-                    relação, amamos fazer as mesmas coisas: bolos, doces, inventar e descobrir receitas maravilhosas!
-                    Todos da família repitiam sempre a mesma frase: <em>"Nossa, vocês poderiam trabalhar juntas e abrir o
-                    próprio negócio!"</em>. O tempo passou e a frase nunca mudava, e então, em um dia qualquer, no café da
-                    tarde em família, resolvemos dar um passo muito importante: <strong>nossa paixão por doces fez nascer o
-                    nosso grande sonho, a DeCasa</strong>.
-                </p>
-
-                <h2>Valores</h2>
-                <p>Esperamos que nossos clientes possam sentir, além do sabor ou através
-                    dele, o mesmo que sentimos aos nos reunir para transformar bons sentimentos em saborosas sobremesas. Nossos valores são: </p>
-                <ul>
-                    <li>Qualidade</li>
-                    <li>Compromisso</li>
-                    <li>Cuidado</li>
-                </ul>
+    <main class="container content  mt-5 mb-5">
+        <h2>Entre em contato</h2>
+        <p>A DeCasa, além de produzir direto para clientes, temos parceiros que revendem nossos produtos. Entre em contato, caso tenha interesse.</p>
+        <form class="form" method="POST" action="https://formspree.io/xgezqrzr">
+            <div class="form-group">
+                <label for="nome">Nome</label>
+                <input type="text" class="form-control" name="name" placeholder="Escreva seu nome">
             </div>
-            <div class="col-sm mb-4">
-                <img class="img-fluid" src="./img/asduas.jpeg" alt="">
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" name="email" placeholder="Escreva o seu melhor e-mail">
             </div>
-        </div>
+            <div class="form-group">
+                <label for="mensagem">Mensagem</label>
+                <textarea class="form-control"rows="3" name="message" placeholder="Escreva sua mensagem aqui"></textarea>
+              </div>
+            <button type="submit" class="btn btn-block" style="background-color: #562301; color: #fff;">Enviar</button>
+          </form>
     </main>
-    <!-- Contato -->
-    <section class="container-fluid p-4" style="background-color: #ffb380;">
-        <section class="container text-center contato_pedido">
-            <h3>Entre em contato e faça sua encomenda agora</h3>
-            <a href="https://api.whatsapp.com/send?phone=5521986554683" target="_blank" class="btn btn-home">Fazer encomenda</a>
-        </section>
-    </section>
     <!-- Rodapé -->
     <footer class="page-footer font-small indigo" id="rodape">
         <div class="container">
